@@ -1,10 +1,10 @@
 import React from 'react'
-import Forest from '../Images/forest.jpeg';
+import './home.css'
 
 const Home = () => {
     return (
-        <div>
-            <img src={Forest} alt="Forest" />
+        <div className="home" >
+           hello
         </div>
     )
 }
